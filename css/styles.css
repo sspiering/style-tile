@@ -3,12 +3,29 @@
 /***************/
 
 /* Color Palette */
+.color-1 {
+  background: cornsilk;
+}
+
+.color-2 {
+  background: grey;
+}
+
+.color-3 {
+  background: midnightblue;
+}
 
 
 /* Textures or Patterns*/
+.pattern-1 {
+  background-image: url()
+}
 
-
-/* Imagery */
+.pattern-2 {
+  background-color: gray;
+background-image: linear-gradient(transparent 50%, rgba(255,255,255,.5) 50%);
+background-size: 50px 50px;
+}
 
 
 /* Icons */
