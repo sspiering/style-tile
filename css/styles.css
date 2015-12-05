@@ -2,13 +2,22 @@
 /* YOUR STYLES */
 /***************/
 
+/*
+Fonts
+  Headings - Ubuntu - 700
+ font-family: 'Ubuntu', sans-serif;
+  Body Copy - Tinos - 400 or 700
+ font-family: 'Tinos', serif;
+*/
+
+
 /* Color Palette */
 .color-1 {
   background: white;
 }
 
 .color-2 {
-  background: yellow;
+  background: #ffea01;
 }
 
 .color-3 {
@@ -16,22 +25,25 @@
 }
 
 
-/* Textures or Patterns*/
-.pattern-1 {
-  background-image: url()
-}
-
-.pattern-2 {
-  background-color: gray;
-background-image: linear-gradient(transparent 50%, rgba(255,255,255,.5) 50%);
-background-size: 50px 50px;
-}
-
-
 /* Icons */
 
 
 /* Typography */
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+  font-family: 'Tinos', serif;
+}
+
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+  font-family: 'Tinos', serif;
+}
 
 
 /* Forms */
@@ -41,3 +53,13 @@ background-size: 50px 50px;
 
 
 /* Cards */
+
+
+/* Styles */
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Tinos', serif;
+  color: black;
+}
